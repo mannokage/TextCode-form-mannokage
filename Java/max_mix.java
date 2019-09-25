@@ -1,14 +1,14 @@
-package mannokage;
+package mannokage;//è¾“å…¥ä¸‰ä¸ªæ•°ï¼Œè¾“å‡ºæœ€å¤§&æœ€å°å€¼
 import java.util.*;
 public class max_mix {
 	public static void main(String[]args) {
-		System.out.println("ÇëÊäÈëÈý¸öÊýÒÔ½øÐÐ±È½Ï£º");
+		System.out.println("è¯·è¾“å…¥ä¸‰ä¸ªæ•°ä»¥è¿›è¡Œæ¯”è¾ƒï¼š");
 		Scanner sc=new Scanner(System.in);
 		int a1=sc.nextInt();
 		int a2=sc.nextInt();
 		int a3=sc.nextInt();
 		sc.close();
-		System.out.println("MAX is:"+"\t"+(a1>a2?(a1>a3?a1:a3):(a2>a3?a2:a3)));//×î´óÖµÊä³ö
-		System.out.print("MiX is:"+"\t"+(a1<a2?(a1<a3?a1:a3):(a2<a3?a2:a3)));//×îÐ¡´óÖµÊä³ö
+		System.out.println("MAX is:"+"\t"+(a1>a2?(a1>a3?a1:a3):(a2>a3?a2:a3)));//æœ€å¤§å€¼è¾“å‡º
+		System.out.print("MiX is:"+"\t"+(a1<a2?(a1<a3?a1:a3):(a2<a3?a2:a3)));//æœ€å°å¤§å€¼è¾“å‡º
 	}
 }
